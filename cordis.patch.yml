@@ -1,0 +1,4 @@
+- insert:
+    - id: amadeus-skin
+      name: '@local/dsh-amadeus-skin'
+      config: {}

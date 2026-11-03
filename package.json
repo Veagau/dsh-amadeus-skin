@@ -1,0 +1,16 @@
+{
+  "name": "@local/dsh-amadeus-skin",
+  "version": "1.6.4",
+  "private": true,
+  "type": "module",
+  "description": "A crimson terminal-inspired theme for DeepSeek Harness.",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/Veagau/dsh-amadeus-skin.git" },
+  "homepage": "https://github.com/Veagau/dsh-amadeus-skin#readme",
+  "bugs": { "url": "https://github.com/Veagau/dsh-amadeus-skin/issues" },
+  "keywords": ["deepseek-harness", "dsh", "theme", "skin"],
+  "scripts": { "build": "node build.mjs", "test": "node test.mjs" },
+  "exports": { ".": "./index.js", "./client": "./client.js", "./locale/*.json": "./locale/*.json", "./icon": "./icon.svg" },
+  "files": ["index.js", "client.js", "client.source.js", "build.mjs", "test.mjs", "amadeus-logo.png", "cordis.patch.yml", "locale/*.json", "icon.svg", "README.md", "README.zh-CN.md", "LICENSE", "ASSETS.md"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" }, "client": { "platform": "web", "immediately": true, "inject": ["@deepseek-ai/dsh-client-ui-theme", "@deepseek-ai/dsh-client-ui-conversation", "@deepseek-ai/dsh-client-ui-sidebar"] } }
+}
