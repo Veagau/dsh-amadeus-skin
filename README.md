@@ -16,10 +16,16 @@ A local DeepSeek Harness (DSH) web theme bundle, independent of the Amadeus work
 
 ## Installation
 
-1. Obtain this directory locally. The bundle is private (`@local/dsh-amadeus-skin`), not an npm publication.
-2. In DSH, ask the agent to install the bundle using the plugin manager's `install_bundle` operation and the **absolute path to this directory**. Installation changes the current profile; decide whether to replace an existing bundle with the same name first.
-3. Enable the bundle and plugin if necessary, then select dark mode in Appearance. Check the plugin manager's application result; installation alone does not guarantee activation. Replacing loaded modules may require a DSH restart.
-4. To remove the skin, disable or uninstall the bundle. Other active themes may affect its appearance.
+### Plugin market (only if listed)
+
+If this bundle becomes available in your configured DSH plugin market, find it there and install it using the market's install action. Availability is not guaranteed; otherwise use the local method below.
+
+### Manual local install
+
+1. Obtain the complete bundle directory locally. Its package is private (`@local/dsh-amadeus-skin`); it is not an npm publication.
+2. In DSH, ask the agent to call `plugin_manager` with `action: "install_bundle"` and `target` set to the **absolute path to the bundle directory** (the directory containing `package.json`), not a relative path or an individual file. For example, use your own path in `{"action":"install_bundle","target":"C:\\path\\to\\dsh-amadeus-skin"}` (or an absolute POSIX path).
+3. Installation affects every session in the current profile. Check for an existing bundle with the same name before replacing it. Enable the bundle and plugin if necessary and select dark mode in Appearance. Check the installation's application result and warnings: installation does not guarantee activation, and replacing loaded modules may require restarting DSH.
+4. Disable or uninstall the bundle to remove it from the profile. Other active themes may affect its appearance.
 
 ## Build and test
 
