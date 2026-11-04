@@ -4,6 +4,16 @@
 
 > **Artwork rights:** The Amadeus image comes from [Yink/Amadeus](https://github.com/Yink/Amadeus). Its original provenance and redistribution permission have not been verified. No authorization is claimed or guaranteed. Verify rights before publishing, redistributing or using it. See [ASSETS.md](ASSETS.md). The MIT license applies to code, not third-party artwork; the generated `client.js` embeds that image.
 
+## Screenshots
+
+Dark theme in the conversation view (cropped to remove account and usage details):
+
+![Dark Amadeus theme in the conversation view](docs/theme-dark.png)
+
+Activity indicator:
+
+![Themed activity indicator](docs/theme-activity.png)
+
 ## Features
 
 - Dark crimson, black and warm gold palette, plus a light wine-colored palette; dark mode is recommended.

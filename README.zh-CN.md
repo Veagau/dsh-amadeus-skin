@@ -4,6 +4,16 @@
 
 > **素材权利提示：** Amadeus 图像来自 [Yink/Amadeus](https://github.com/Yink/Amadeus)，其原始来源及再分发许可尚未核实；不声称或保证已经获得授权。发布、再分发或使用前请自行确认权利，详见 [ASSETS.md](ASSETS.md)。MIT 许可适用于代码，不适用于第三方素材；构建生成的 `client.js` 内嵌该图像。
 
+## 界面截图
+
+深色模式对话界面（已裁去账号和用量信息）：
+
+![Amadeus 深色主题对话界面](docs/theme-dark.png)
+
+活动状态文字效果：
+
+![主题化的活动状态文字](docs/theme-activity.png)
+
 ## 功能
 
 - 深色模式采用黑红与暖金配色，浅色模式采用浅酒红；推荐深色模式。
