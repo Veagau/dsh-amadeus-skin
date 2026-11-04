@@ -1,5 +1,7 @@
 # DSH Amadeus 皮肤
 
+![AI 生成的 Amadeus 皮肤封面](docs/skin-cover.png)
+
 [English](README.md) · 独立于 Amadeus 工作台的 DeepSeek Harness（DSH）Web 主题插件包。
 
 > **素材权利提示：** Amadeus 图像来自 [Yink/Amadeus](https://github.com/Yink/Amadeus)，其原始来源及再分发许可尚未核实；不声称或保证已经获得授权。发布、再分发或使用前请自行确认权利，详见 [ASSETS.md](ASSETS.md)。MIT 许可适用于代码，不适用于第三方素材；构建生成的 `client.js` 内嵌该图像。

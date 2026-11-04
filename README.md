@@ -1,5 +1,7 @@
 # DSH Amadeus Skin
 
+![AI-generated Amadeus Skin cover](docs/skin-cover.png)
+
 [中文](README.zh-CN.md) · A local DeepSeek Harness (DSH) web theme bundle, independent of the Amadeus workbench.
 
 > **Artwork rights:** The Amadeus image comes from [Yink/Amadeus](https://github.com/Yink/Amadeus). Its original provenance and redistribution permission have not been verified. No authorization is claimed or guaranteed. Verify rights before publishing, redistributing or using it. See [ASSETS.md](ASSETS.md). The MIT license applies to code, not third-party artwork; the generated `client.js` embeds that image.
